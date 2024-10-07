@@ -205,7 +205,6 @@ body {
     text-align: center;
     font-size: 40px;
     margin: 20px auto;
-    background-image: url(../img/stars.svg);
   }
 
   .quinto-paragrafo {
@@ -239,7 +238,6 @@ body {
   }
 
   .col-40 {
-    border: 1px dashed rgb(255, 255, 255);
     width: 40%;
     display: flex;
     margin: auto;
@@ -247,7 +245,6 @@ body {
   }
 
   .col-15 {
-    border: 1px dashed rgb(255, 255, 255);
     width: 15%;
     display: flex;
     margin: 20px auto;
@@ -263,6 +260,11 @@ h2 {
 
 .lista-footer {
   list-style: none;
+}
+
+.link-foot {
+  margin: 20px auto;
+  color: white;
   text-decoration: none;
 }
 
@@ -289,3 +291,4 @@ h2 {
   font-size: 20px;
   margin: 20px 0;
  }
+
