@@ -220,13 +220,16 @@ body {
       font-size: 20px;
       margin: 30px auto;
       }
+/* FINE QUINTA SEZIONE  */
 
 
-
-
+/* FOOTER  */
   .sezione-footer {
     background-color: rgb(51, 50, 50);
-    /* height: 300px; */
+  }
+
+  .primo {
+    color: rgb(114, 137, 218);
   }
 
   .row4 {
@@ -241,7 +244,6 @@ body {
     display: flex;
     margin: auto;
     height: 400px;
-    background-color: rgb(240, 128, 128);
   }
 
   .col-15 {
@@ -250,20 +252,40 @@ body {
     display: flex;
     margin: 20px auto;
     height: 400px;
-    background-color: rgb(34, 207, 234);
   }
+ 
+/* LISTE FOOTER  */
+
+h2 {
+  color: rgb(114, 137, 218);
+  font-size: 20px;
+}
+
+.lista-footer {
+  list-style: none;
+  text-decoration: none;
+}
+
+
+/* FINE LISTE FOOTER  */
+
+ .titolo-footer {
+  color: rgb(114, 137, 218);
+  padding: 20px 0px;
+}
 
  .footer-finale {
-    background-color: rgb(31, 197, 197);
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;
     margin: auto;
  }
 
- .bordo {
-    background-color: rgb(240, 128, 128);;
-    border: solid 1px rgb(0, 0, 0);
-    padding: 5px;
+ .bottone5 {
+  background-color:rgb(114, 137, 218);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin: 20px 0;
  }
