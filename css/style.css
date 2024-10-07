@@ -52,9 +52,8 @@ body {
 }
 /* FINE HEADER  */
 
-
-
-.prima-sezione {
+/* PRIMA SEZIONE  */
+  .prima-sezione {
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: cover;
@@ -105,17 +104,11 @@ body {
       border-radius: 20px;
       font-size: 20px;
     }
+    /* FINE PRIMA SEZIONE  */
 
-
-
-  
-
-  
-  
-  
+    /* SECONDA SEZIONE  */
     .seconda-sezione {
     background-color: rgb(255, 255, 255);
-    /* height: 300px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,28 +121,30 @@ body {
   }
 
   .col-70 {
-    background-color: rgb(30, 144, 255);
-    border: 1px dashed black;
     display: flex;
     margin: 20px auto;
-    height: 200px;
+    /* height: 400px; */
     width: 70%;
   }
 
   .col-30 {
-    background-color: rgb(255, 192, 203);
-    border: 1px dashed black;
+    font-size: 25px;
     display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-content: top;
     margin: 20px auto;
-    height: 200px;
+    height: 300px;
     width: 30%;
-
     /* DEBUG  */
-    height: 200px;
+    /* height: 200px; */
   }
+ /* FINE SECONDA SEZIONE  */
 
-  .terza-sezione {
-    background-color: rgb(211, 211, 211);
+
+ /* TERZA SEZIONE  */
+   .terza-sezione {
+    background-color: rgb(218, 216, 216);
     /* height: 300px; */
     display: flex;
     justify-content: center;
