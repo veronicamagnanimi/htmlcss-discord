@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .container {
     width: 80%;
     max-width: 1100px;
@@ -11,17 +15,13 @@
 }
 
 .header {
-    background-color: rgb(173, 216, 230);
+    background-color: rgb(37, 94, 233);
     height: 60px;
-}
-
-.header-section {
     padding: 10px;
 }
 
 .row {
-    background-color: rgb(218, 165, 32);
-    border: 1px dashed black;
+    background-color:rgb(37, 94, 233);
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -29,6 +29,24 @@
     /* DEBUG */
     min-height: 30px;
 }
+
+.nav {
+  list-style: none;
+  
+}
+
+
+
+.link-nav {
+  text-decoration: none;
+    color: white;
+}
+
+.login {
+  background-color: white;
+}
+
+
 
 .prima-sezione {
     background-color: rgb(0, 0, 139);
