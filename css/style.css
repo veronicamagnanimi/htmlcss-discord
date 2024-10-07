@@ -16,7 +16,6 @@ body {
 
 .header {
     background-color: rgb(37, 94, 233);
-    height: 60px;
     padding: 10px;
 }
 
@@ -25,26 +24,29 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-
-    /* DEBUG */
-    min-height: 30px;
+    align-items: center;   
 }
 
 .nav {
   list-style: none;
-  
+  display: flex;
+  gap: 25px;
 }
-
 
 
 .link-nav {
   text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .login {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+  padding: 10px 15px;
+  border-radius: 15px;
 }
+/* FINE HEADER  */
 
 
 
