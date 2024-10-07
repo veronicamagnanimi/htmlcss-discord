@@ -87,6 +87,12 @@ body {
       color: rgb(32, 32, 32);
     }
 
+    .paragrafo-bianco {
+      color: rgb(255, 255, 255);
+      line-height: 30px;
+      font-size: 20px;
+    }
+
     .bottoni {
       display: flex;
       justify-content: center;
@@ -189,7 +195,6 @@ body {
   .box2 {
     display: flex;
     justify-content: center;
-    /* display: inline-block; */
     align-items: center;
     margin: 20px 0;
     flex-direction: column;
@@ -199,11 +204,22 @@ body {
   .quinto-titolo {
     text-align: center;
     font-size: 40px;
+    margin: 20px auto;
+    background-image: url(../img/stars.svg);
   }
 
   .quinto-paragrafo {
     text-align: center;
   }
+
+  .bottone5 {
+    background-color:rgb(114, 137, 218);
+      color: rgb(255, 255, 255);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 20px;
+      margin: 30px auto;
+      }
 
 
 
