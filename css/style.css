@@ -241,7 +241,18 @@ body {
     width: 40%;
     display: flex;
     margin: auto;
-    height: 400px;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+  }
+
+.italiano {
+  color: rgb(255, 255, 255);
+}
+
+  i {
+    padding: 5px;
+    display: flex;
+    display: inline-block;
   }
 
   .col-15 {
