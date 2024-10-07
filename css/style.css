@@ -82,6 +82,11 @@ body {
       font-size: 20px;
     }
 
+    p {
+      margin: 20px auto;
+      color: rgb(32, 32, 32);
+    }
+
     .bottoni {
       display: flex;
       justify-content: center;
@@ -123,8 +128,9 @@ body {
   .col-70 {
     display: flex;
     margin: 20px auto;
-    /* height: 400px; */
     width: 70%;
+    display: inline-block;
+    align-content: center;
   }
 
   .col-30 {
@@ -132,12 +138,9 @@ body {
     display: flex;
     display: inline-block;
     justify-content: center;
-    align-content: top;
+    align-content: center;
     margin: 20px auto;
-    height: 300px;
     width: 30%;
-    /* DEBUG  */
-    /* height: 200px; */
   }
  /* FINE SECONDA SEZIONE  */
 
@@ -145,7 +148,6 @@ body {
  /* TERZA SEZIONE  */
    .terza-sezione {
     background-color: rgb(218, 216, 216);
-    /* height: 300px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,10 +158,12 @@ body {
     display: flex;
     justify-content: space-around;
   }
+  /* FINE TERZA SEZIONE  */
 
+
+ /* QUARTA SEZIONE  */
   .quarta-sezione {
     background-color: rgb(255, 255, 255);
-    /* height: 300px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,25 +175,38 @@ body {
     justify-content: space-around;
   }
 
+  /* FINE QUARTA LEZIONE  */
+
+
+  /* QUINTA SEZIONE   */
   .quinta-sezione {
     background-color: rgb(211, 211, 211);
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* DEBUG */
-    /* height: 500px; */
   }
 
   .box2 {
-    border: 1px dashed rgb(0, 0, 0);
-    background-color: rgb(5, 150, 70);
     display: flex;
     justify-content: center;
+    /* display: inline-block; */
     align-items: center;
-    height: 350px;
-    margin: 20px auto;
+    margin: 20px 0;
+    flex-direction: column;
   }
+
+
+  .quinto-titolo {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .quinto-paragrafo {
+    text-align: center;
+  }
+
+
+
 
   .sezione-footer {
     background-color: rgb(51, 50, 50);
